@@ -8,6 +8,7 @@ My task is to answer key business questions by following the structured data ana
 - [Introduction](#introduction)
 - [Ask](#ask)
 - [Prepare](#prepare)
+- [Process](#process)
 
 ## Introduction
 
@@ -45,7 +46,40 @@ I have been assigned the task of answering the first question: How do annual mem
 <br> My role is to provide a thorough analysis of how casual riders and annual members use Cyclistic bikes differently, offering reliable data that Lily Moreno and the marketing team can use to make strategic decisions. These insights will guide Cyclistic in creating targeted campaigns, optimizing bike allocation, and designing membership plans that appeal to casual riders, ultimately aiming to increase conversions and revenue.
 
 ## Prepare
+
+### Data Source
 For this analysis, I will use Cyclistic’s historical trip data from the past 12 months, which is organized by month. Each Excel sheet corresponds to a specific month, covering data from December 2023 through November 2024.  This dataset can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). It will help me explore how different customer types use Cyclistic bikes.
 
 <i>(Disclaimer: The data is available through [this license](https://divvybikes.com/data-license-agreement), provided by Motivate International Inc. specifically for this case study. It is important to note that the data is anonymized, meaning that no personally identifiable information is included, such as riders’ names or credit card details. This ensures privacy and complies with data security regulations. The license allows the use of the data only for the purposes of this case study.)</i>
+
+### Dataset Overview and Structure
+The dataset comprises 12 files named using the YYYYMM-divvy-tripdata format, with each file representing a single month of data. These files contain details such as the ride ID, bike type, start and end times, start and end stations, start and end locations, and the rider's membership status. The corresponding column headers are: 
+- ride_id
+- rideable_type
+- started_at
+- ended_at
+- start_station_name
+- start_station_id
+- end_station_name
+- end_station_id
+- start_lat
+- start_lng
+- end_lat
+- end_lng
+- member_casual
+
+### Data Credibility and Bias
+The dataset comes from Cyclistic’s historical trip data, ensuring credibility. However, potential biases include:
+- Sampling Bias: Only Cyclistic bike trips are included, excluding other transport options.
+- Geographical Bias: The data is specific to Chicago.
+- Temporal Bias: The data covers December 2023 to November 2024, so insights are limited to this period.
+
+The data meets ROCCC criteria:
+- Reliable: From Cyclistic.
+- Original: Directly collected from Cyclistic.
+- Comprehensive: Covers all trips in the timeframe.
+- Current: Includes data through November 2024.
+- Cited: Proper attribution through the license.
+
+## Process
 
