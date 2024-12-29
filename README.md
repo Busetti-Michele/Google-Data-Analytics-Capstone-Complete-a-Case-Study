@@ -9,6 +9,7 @@ My task is to answer key business questions by following the structured data ana
 - [Ask](#ask)
 - [Prepare](#prepare)
 - [Process](#process)
+- [Analyze](#analyze)
 
 ## Introduction
 
@@ -91,7 +92,7 @@ By using BigQuery, I was able to analyze the dataset's structure, identify incon
 ### Data Exploration
 In this step i'm going to explore the structure of my dataset.
 
-The commands executed on BigQuery will be documented in the Data Exploration.sql file.
+The commands executed on BigQuery will be documented in the [Data Exploration.sql](https://github.com/Busetti-Michele/Google-Data-Analytics-Capstone-Complete-a-Case-Study/blob/main/Data%20Exploration.sql) file.
 
 First, I aim to determine the number of null values in each column
 ![image](https://github.com/user-attachments/assets/a8e2bba1-2b3c-4b33-9e08-b164335cdf39)
@@ -139,6 +140,8 @@ Finally, the last column, as we already know, indicates whether the rider was a 
 
 
 ## Data Cleaning
+In this repository, all operations performed on BigQuery will be documented in the [Data_Cleaning.sql](https://github.com/Busetti-Michele/Google-Data-Analytics-Capstone-Complete-a-Case-Study/blob/main/Data%20Cleaning.sql) file.
+
 I created a new table called Cyclistic_Dataset_cleaned, where all the information from the original table was transferred, along with several new columns to enrich and simplify the analysis:
 
 - ride_length: calculates the duration of each ride in minutes, helping identify unusually long or short trips.
@@ -155,7 +158,9 @@ Next, I removed rows where the trip duration was less than one minute, and the s
 
 Additionally, I decided to remove cases where the duration was less than one minute and the start_equals_end value of 1 was due to missing records for both the start and end stations. This was clearly an error in data collection and was removed to maintain the integrity of the dataset.
 
+After these cleaning steps, the number of rows reduced from 5,906,269 to 5,794,919, and the dataset is now ready for analysis.
 
+## Analyze
 
 
 
