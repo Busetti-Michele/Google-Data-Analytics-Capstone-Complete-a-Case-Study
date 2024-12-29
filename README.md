@@ -119,7 +119,7 @@ The rideable_type column indicates the type of vehicle used.
 ![image](https://github.com/user-attachments/assets/5ab3536a-5956-4afc-9d4d-e42e88ab6c9d)
 
 #### Columns started_at & ended_at
-We have complete data for both start and end times, but it might be necessary to assess the consistency of these trips.
+During the initial exploration of the dataset, I identified certain cases that seemed unusual and might require further attention. Specifically, trips with a duration exceeding 24 hours or those where the trip duration was less than one minute, with the start and end stations being the same, seemed likely to represent errors or insignificant trips. These situations suggest that either there were issues in recording the arrival time or users may have changed their minds shortly after starting the ride. These types of trips will need further consideration during the cleaning phase to ensure the dataset’s relevance and accuracy.
 
 
 #### Columns start_station_name, start_station_id, end_station_name, end_station_id
@@ -136,6 +136,27 @@ The fact that we always have starting latitude and longitude but not ending coor
 Finally, the last column, as we already know, indicates whether the rider was a subscribed member or a casual user.
 
 ![image](https://github.com/user-attachments/assets/d80b4119-4af4-420d-bec0-9315628a3723)
+
+
+## Data Cleaning
+I created a new table called Cyclistic_Dataset_cleaned, where all the information from the original table was transferred, along with several new columns to enrich and simplify the analysis:
+
+- ride_length: calculates the duration of each ride in minutes, helping identify unusually long or short trips.
+- day_of_week: indicates the day of the week when the ride started, useful for temporal analysis and cyclical behaviors.
+- month: clearly displays the month when the ride began, facilitating seasonal analysis.
+- start_equals_end: checks if a ride started and ended at the same station, providing valuable insights into specific user behaviors.
+This step marks the beginning of the transformation of the raw dataset into a structured format ready for deeper analysis.
+
+After transferring the information to the Cyclistic_Dataset_cleaned table and adding the new columns for analysis, I focused on removing any rows that might introduce inaccuracies or irrelevant data into the analysis.
+
+I started by eliminating rows with duplicate ride_id values, as these represented repeated entries of the same ride. Following that, I removed trips where the duration exceeded 24 hours, as these were likely caused by errors in recording the arrival time at the station.
+
+Next, I removed rows where the trip duration was less than one minute, and the start_equals_end column had a value of 1, indicating that the start and end stations were the same. These cases likely reflected instances where users had changed their mind shortly after starting the ride, and the data was not meaningful for the analysis.
+
+Additionally, I decided to remove cases where the duration was less than one minute and the start_equals_end value of 1 was due to missing records for both the start and end stations. This was clearly an error in data collection and was removed to maintain the integrity of the dataset.
+
+
+
 
 
 
