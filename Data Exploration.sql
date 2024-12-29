@@ -16,9 +16,11 @@ SELECT COUNT(*) - COUNT(ride_id) ride_id,
 FROM `Cyclist_Dataset.Cyclist_Dataset`;
 
 
--- counting the number of ride_id and the number of distinct ride_id
+-- Counting the number of ride_id and the number of distinct ride_id
 
 SELECT COUNT(ride_id) AS total_ride_ids
 FROM ` GoogleDataAnalytics.Cyclistic_Dataset `;
+
 SELECT COUNT(DISTINCT ride_id) AS distinct_ride_ids 
 FROM ` GoogleDataAnalytics.Cyclistic_Dataset `;
+
