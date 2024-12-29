@@ -83,3 +83,38 @@ The data meets ROCCC criteria:
 
 ## Process
 
+### Data Format Conversion and Initial Setup
+To handle the large dataset consisting of 5,906,269 rows efficiently, I uploaded all the monthly CSV files directly to Google Cloud's BigQuery. This approach allowed me to consolidate the data into a single table and leverage SQL for data exploration and cleaning. 
+
+By using BigQuery, I was able to analyze the dataset's structure, identify inconsistencies, and prepare the data for further analysis. This method provided a scalable and efficient solution for managing and processing such a substantial volume of data.
+
+### Data Exploration
+In this step i'm going to explore the structure of my dataset.
+
+The commands executed on BigQuery will be documented in the Data Exploration.sql file.
+
+First, I aim to determine the number of null values in each column
+![image](https://github.com/user-attachments/assets/a8e2bba1-2b3c-4b33-9e08-b164335cdf39)
+As we can see from this image, some columns have no missing data, while others have a significant amount (approximately 1/6 of the dataset). 
+
+The ride_id column will likely serve as our primary key. So, we will ensure that all values are distinct and have the same character length to guarantee there are no errors. 
+
+
+
+
+The rideable_type column indicates the type of bike used. 
+
+We have complete data for both start and end times, but it might be necessary to assess the consistency of these trips.
+
+For station_name and station_id, both for start and end stations, the information seems somewhat redundant. Since they contain the same amount of missing data, we might decide to keep one or the other. Keeping the station name appears to be the better choice compared to the ID, as it makes more sense to retain the names, which provide useful context about the departure or arrival stations. The IDs, on the other hand, wouldn't offer any meaningful insight.
+
+The fact that we always have starting latitude and longitude but not ending coordinates could indicate errors in the trip completion phase. This might correlate with improper recording of trip end times.
+
+Finally, the last column, as we already know, indicates whether the rider was a subscribed member or a casual user.
+
+
+
+
+
+
+
