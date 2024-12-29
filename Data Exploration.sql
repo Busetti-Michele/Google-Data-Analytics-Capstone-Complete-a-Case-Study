@@ -27,6 +27,8 @@ SELECT COUNT(DISTINCT ride_id) AS distinct_ride_ids
 FROM ` GoogleDataAnalytics.Cyclistic_Dataset `;
 
 
+
+
 -- Counting the number of characters for each ride_id
 
 SELECT LENGTH(ride_id) AS ride_id_length, 
