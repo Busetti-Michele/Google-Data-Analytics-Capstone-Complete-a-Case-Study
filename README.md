@@ -118,14 +118,24 @@ The rideable_type column indicates the type of vehicle used.
 
 ![image](https://github.com/user-attachments/assets/5ab3536a-5956-4afc-9d4d-e42e88ab6c9d)
 
-
+#### Columns started_at & ended_at
 We have complete data for both start and end times, but it might be necessary to assess the consistency of these trips.
 
+
+#### Columns start_station_name, start_station_id, end_station_name, end_station_id
 For station_name and station_id, both for start and end stations, the information seems somewhat redundant. Since they contain the same amount of missing data, we might decide to keep one or the other. Keeping the station name appears to be the better choice compared to the ID, as it makes more sense to retain the names, which provide useful context about the departure or arrival stations. The IDs, on the other hand, wouldn't offer any meaningful insight.
 
+Although some rows in the columns start_station_name, start_station_id, end_station_name, and end_station_id contain missing values, these rows will not be deleted. Removing these rows would result in losing valuable information about the ride durations. Since the duration of the rides could provide insights into the behavior of subscribed vs. casual users, it is important to retain all the data related to ride length, even if the station information is missing.
+
+
+#### Columns start_lat, start_lng, end_lat, end_lng
 The fact that we always have starting latitude and longitude but not ending coordinates could indicate errors in the trip completion phase. This might correlate with improper recording of trip end times.
 
+
+#### Column member_casual
 Finally, the last column, as we already know, indicates whether the rider was a subscribed member or a casual user.
+
+![image](https://github.com/user-attachments/assets/d80b4119-4af4-420d-bec0-9315628a3723)
 
 
 
