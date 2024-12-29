@@ -16,6 +16,8 @@ SELECT COUNT(*) - COUNT(ride_id) ride_id,
 FROM `Cyclist_Dataset.Cyclist_Dataset`;
 
 
+
+
 -- Counting the number of ride_id and the number of distinct ride_id
 
 SELECT COUNT(ride_id) AS total_ride_ids
@@ -31,12 +33,17 @@ SELECT LENGTH(ride_id) AS ride_id_length,
 FROM `GoogleDataAnalytics.Cyclistic_Dataset`
 GROUP BY ride_id_length;
 
+
+
+
 -- Better understanding of rideable_type
 
 SELECT DISTINCT rideable_type, 
 COUNT(rideable_type) AS number_of_trips
 FROM `GoogleDataAnalytics.Cyclistic_Dataset`
 GROUP BY rideable_type;
+
+
 
 
 -- Better understanding of member_casual
