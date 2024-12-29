@@ -24,3 +24,25 @@ FROM ` GoogleDataAnalytics.Cyclistic_Dataset `;
 SELECT COUNT(DISTINCT ride_id) AS distinct_ride_ids 
 FROM ` GoogleDataAnalytics.Cyclistic_Dataset `;
 
+
+-- Counting the number of characters for each ride_id
+
+SELECT LENGTH(ride_id) AS ride_id_length, 
+FROM `GoogleDataAnalytics.Cyclistic_Dataset`
+GROUP BY ride_id_length;
+
+-- Better understanding of rideable_type
+
+SELECT DISTINCT rideable_type, 
+COUNT(rideable_type) AS number_of_trips
+FROM `GoogleDataAnalytics.Cyclistic_Dataset`
+GROUP BY rideable_type;
+
+
+-- Better understanding of member_casual
+
+SELECT DISTINCT member_casual, 
+COUNT(member_casual) AS number_of_trips
+FROM `GoogleDataAnalytics.Cyclistic_Dataset`
+GROUP BY member_casual;
+
