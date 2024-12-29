@@ -53,7 +53,7 @@ For this analysis, I will use Cyclistic’s historical trip data from the past 1
 <i>(Disclaimer: The data is available through [this license](https://divvybikes.com/data-license-agreement), provided by Motivate International Inc. specifically for this case study. It is important to note that the data is anonymized, meaning that no personally identifiable information is included, such as riders’ names or credit card details. This ensures privacy and complies with data security regulations. The license allows the use of the data only for the purposes of this case study.)</i>
 
 ### Dataset Overview and Structure
-The dataset comprises 12 files named using the YYYYMM-divvy-tripdata format, with each file representing a single month of data. These files contain details such as the ride ID, bike type, start and end times, start and end stations, start and end locations, and the rider's membership status. The corresponding column headers are: 
+The dataset comprises 12 files named using the YYYYMM-divvy-tripdata format, with each file representing a single month of data. These files contain details such as the ride ID, vehicle type, start and end times, start and end stations, start and end locations, and the rider's membership status. The corresponding column headers are: 
 - ride_id
 - rideable_type
 - started_at
@@ -97,12 +97,27 @@ First, I aim to determine the number of null values in each column
 ![image](https://github.com/user-attachments/assets/a8e2bba1-2b3c-4b33-9e08-b164335cdf39)
 As we can see from this image, some columns have no missing data, while others have a significant amount (approximately 1/6 of the dataset). 
 
-The ride_id column will likely serve as our primary key. So, we will ensure that all values are distinct and have the same character length to guarantee there are no errors. 
+
+#### Column ride_id
+
+The ride_id  column will likely serve as our primary key. So, we will ensure that all values are distinct and have the same character length to guarantee there are no errors. 
+
+![image](https://github.com/user-attachments/assets/b18a0383-9e68-409b-bbeb-1928c1d71817) ......
+![image](https://github.com/user-attachments/assets/d3ba6d74-a348-445a-82c4-771258332bb7)
+
+It will be necessary to remove the rows with duplicate ride_id values to ensure data consistency.
+
+![image](https://github.com/user-attachments/assets/733b5ee9-949b-4017-a84b-f2510fa13cb5)
 
 
+All ride_id values have a length of 16 characters
 
 
-The rideable_type column indicates the type of bike used. 
+#### Column rideable_type
+The rideable_type column indicates the type of vehicle used. 
+
+![image](https://github.com/user-attachments/assets/5ab3536a-5956-4afc-9d4d-e42e88ab6c9d)
+
 
 We have complete data for both start and end times, but it might be necessary to assess the consistency of these trips.
 
