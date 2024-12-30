@@ -182,6 +182,7 @@ We can see
 <b> 2. Average Ride Duration Analysis</b>
 
 Objective: To analyze the average ride duration across different timeframes, including by month, day of the week, and hour of the day.
+
 ![image](https://github.com/user-attachments/assets/7dae028a-2790-4c6d-be89-cc767ad19570)
 ![image](https://github.com/user-attachments/assets/abbff7dd-7b5e-4886-9101-eaba92bdfae1)
 ![image](https://github.com/user-attachments/assets/01886769-d787-4ae0-b5ff-6b0913712f85)
@@ -192,10 +193,10 @@ Objective: To analyze the average ride duration across different timeframes, inc
 
 <b> 3. Analysis of Vehicle Usage by Rider Type </b>
 
-  - Objective: To determine the types of vehicles (classic bikes, electric bikes, etc.) preferred by members and casual riders.
+Objective: To determine the types of vehicles (classic bikes, electric bikes, etc.) preferred by members and casual riders.
      ![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
     ![image](https://github.com/user-attachments/assets/ddd688fe-b9b6-4c91-886d-4a8ef2d3a9cb)
-  - As observed, the most utilized vehicles were classic bikes and electric bikes, both used in similar quantities by members and casual riders
+As observed, the most utilized vehicles were classic bikes and electric bikes, both used in similar quantities by members and casual riders
 
 
 
