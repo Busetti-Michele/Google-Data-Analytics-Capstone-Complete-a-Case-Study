@@ -165,6 +165,12 @@ After these cleaning steps, the number of rows reduced from 5,906,269 to 5,794,9
 ## Analyze
 
 
+Beginning the analysis with the first column, we examine the utilization of different vehicle types by members and casual riders.
+
+![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
+![image](https://github.com/user-attachments/assets/ddd688fe-b9b6-4c91-886d-4a8ef2d3a9cb)
+
+As observed, the most utilized vehicles were classic bikes and electric bikes, both used in similar quantities by members and casual riders
 
 
 
