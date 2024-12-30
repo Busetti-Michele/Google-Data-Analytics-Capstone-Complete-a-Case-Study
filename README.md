@@ -169,8 +169,16 @@ The analyses performed in BigQuery will be included in the file [Data Analysis.s
 
 Analyses Conducted:
 
+### <b> 1. Analyzing Bike Usage to Understand the Current Situation </b>
+First of all, I decided to analyze the usage of the bikes to assess the current situation of the company. 
 
-### <b> 1. Number of Rides Analysis </b>
+![image](https://github.com/user-attachments/assets/30741af9-5c1c-40d0-b30d-4430b162237a)
+From the data, we observe that the ride duration for both members and casual riders is quite similar, highlighting significant opportunities for improvement.
+
+
+
+
+### <b> 2. Number of Rides Analysis </b>
 
 Objective: To examine the total number of rides taken by members and casual riders across different timeframes (month, day, and hour).
 ![image](https://github.com/user-attachments/assets/f8ebbf1c-8826-4b93-86a5-7442267a537e)
@@ -185,7 +193,7 @@ The analysis of ride frequency highlights that members generally take more rides
 
 
 
-### <b> 2. Average Ride Duration Analysis</b>
+### <b> 3. Average Ride Duration Analysis</b>
 
 Objective: To analyze the average ride duration across different timeframes, including by month, day of the week, and hour of the day.
 
@@ -202,7 +210,7 @@ it is clear that casual riders tend to use the bike for longer periods during a 
 
 
 
-### <b> 3. Analysis of Vehicle Usage by Rider Type </b>
+### <b> 4. Analysis of Vehicle Usage by Rider Type </b>
 
 Objective: To determine the types of vehicles (classic bikes, electric bikes, etc.) preferred by members and casual riders.
      ![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
