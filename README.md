@@ -164,22 +164,28 @@ Additionally, I decided to remove cases where the duration was less than one min
 After these cleaning steps, the number of rows reduced from 5,906,269 to 5,794,919, and the dataset is now ready for analysis.
 
 ## Analyze & Share
-
+The analyses performed in BigQuery will be included in the file [Data Analysis.sql](https://github.com/Busetti-Michele/Google-Data-Analytics-Capstone-Complete-a-Case-Study/blob/main/Data%20Analysis.sql), while the visualizations were created using Tableau.
 
 
 Analyses Conducted:
 
 
-<b> 1. Number of Rides Analysis </b>
+### <b> 1. Number of Rides Analysis </b>
 
 Objective: To examine the total number of rides taken by members and casual riders across different timeframes (month, day, and hour).
 ![image](https://github.com/user-attachments/assets/f8ebbf1c-8826-4b93-86a5-7442267a537e)
 ![image](https://github.com/user-attachments/assets/df8d7625-b1d7-4350-97ff-9f81857a2b66)
 ![image](https://github.com/user-attachments/assets/778e4f1d-9ae1-448f-a91c-f79818daeca2)
 
-We can see
+The analysis of ride frequency highlights notable differences between members and casual riders across different timeframes: months, days of the week, and hours of the day.
 
-<b> 2. Average Ride Duration Analysis</b>
+- Monthly Trends: The highest number of rides occurs between June and September, aligning with the warmer months when cycling is most favorable. Conversely, usage significantly declines during the colder winter months.
+- Weekly Trends: Members show a higher usage of bikes during weekdays, likely reflecting commuting patterns. In contrast, casual riders predominantly use the bikes on weekends, suggesting leisure-oriented usage.
+- Hourly Trends: Overall bike usage increases steadily throughout the day, peaking in the late afternoon around 6 PM. For members, two distinct peaks are observed: one in the 7-8 AM timeframe and another in the 5-6 PM range, coinciding with typical commuting hours.
+
+
+
+### <b> 2. Average Ride Duration Analysis</b>
 
 Objective: To analyze the average ride duration across different timeframes, including by month, day of the week, and hour of the day.
 
@@ -191,7 +197,7 @@ Objective: To analyze the average ride duration across different timeframes, inc
 
 
 
-<b> 3. Analysis of Vehicle Usage by Rider Type </b>
+### <b> 3. Analysis of Vehicle Usage by Rider Type </b>
 
 Objective: To determine the types of vehicles (classic bikes, electric bikes, etc.) preferred by members and casual riders.
      ![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
