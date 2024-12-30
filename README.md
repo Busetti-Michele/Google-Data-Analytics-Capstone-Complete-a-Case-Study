@@ -9,7 +9,8 @@ My task is to answer key business questions by following the structured data ana
 - [Ask](#ask)
 - [Prepare](#prepare)
 - [Process](#process)
-- [Analyze](#analyze)
+- [Analyze & Share](#analyze&Share)
+- [Act](#Act)
 
 ## Introduction
 
