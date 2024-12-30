@@ -238,6 +238,9 @@ On the other hand, casual riders (second one) frequently start their trips from 
 | Their trips are mostly concentrated in residential areas | They typically start and end their journeys near parks, acquariums and other leisure spots |
 
 ## Act
+After analyzing the differences between casual and member riders, it's time to take action and focus on converting casual riders into members. By understanding their behaviors and preferences, we can create strategies to encourage them to join as regular members.
+
+Recommendations:
 - Incentivize sign-ups during peak seasons: Use high-usage periods (summer and spring) to offer discounts or exclusive benefits to casual riders, encouraging them to become members for better rates and additional perks.
 
 - Enhance the casual rider experience: Create experiences more similar to those of members, such as the ability to reserve bikes in advance or ensuring availability in residential areas, to familiarize casual riders with the convenience and encourage them to switch to a membership.
