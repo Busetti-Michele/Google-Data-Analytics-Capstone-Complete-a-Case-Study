@@ -193,6 +193,11 @@ Objective: To analyze the average ride duration across different timeframes, inc
 ![image](https://github.com/user-attachments/assets/abbff7dd-7b5e-4886-9101-eaba92bdfae1)
 ![image](https://github.com/user-attachments/assets/01886769-d787-4ae0-b5ff-6b0913712f85)
 
+Regarding the analysis of average ride duration, it is clear that casual riders tend to use the bike for longer periods during a ride. In contrast, the average ride duration for members remains similar across all three time periods analyzed: month, day, and hour.
+
+- Monthly Trends: Casual riders use the bike for a longer duration on average, with peak usage occurring from April to August. On the other hand, member ride durations remain fairly consistent across all months.
+- Weekly Trends: There is a slight increase in ride duration during weekends, suggesting that casual riders tend to have more leisurely rides compared to weekdays.
+- Hourly Trends: The average ride duration is lower between 4 PM and 7 PM. However, it peaks between 10 AM and 3 PM.
 
 
 
