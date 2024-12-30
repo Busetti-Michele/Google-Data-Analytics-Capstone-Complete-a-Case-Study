@@ -177,7 +177,7 @@ Objective: To examine the total number of rides taken by members and casual ride
 ![image](https://github.com/user-attachments/assets/df8d7625-b1d7-4350-97ff-9f81857a2b66)
 ![image](https://github.com/user-attachments/assets/778e4f1d-9ae1-448f-a91c-f79818daeca2)
 
-The analysis of ride frequency highlights notable differences between members and casual riders across different timeframes: months, days of the week, and hours of the day.
+The analysis of ride frequency highlights that members generally take more rides overall compared to casual users, reflecting their consistent and utilitarian use of the service.
 
 - Monthly Trends: The highest number of rides occurs between June and September, aligning with the warmer months when cycling is most favorable. Conversely, usage significantly declines during the colder winter months.
 - Weekly Trends: Members show a higher usage of bikes during weekdays, likely reflecting commuting patterns. In contrast, casual riders predominantly use the bikes on weekends, suggesting leisure-oriented usage.
@@ -193,11 +193,11 @@ Objective: To analyze the average ride duration across different timeframes, inc
 ![image](https://github.com/user-attachments/assets/abbff7dd-7b5e-4886-9101-eaba92bdfae1)
 ![image](https://github.com/user-attachments/assets/01886769-d787-4ae0-b5ff-6b0913712f85)
 
-Regarding the analysis of average ride duration, it is clear that casual riders tend to use the bike for longer periods during a ride. In contrast, the average ride duration for members remains similar across all three time periods analyzed: month, day, and hour.
+it is clear that casual riders tend to use the bike for longer periods during a ride. In contrast, the average ride duration for members remains similar across all three time periods analyzed.
 
 - Monthly Trends: Casual riders use the bike for a longer duration on average, with peak usage occurring from April to August. On the other hand, member ride durations remain fairly consistent across all months.
 - Weekly Trends: There is a slight increase in ride duration during weekends, suggesting that casual riders tend to have more leisurely rides compared to weekdays.
-- Hourly Trends: The average ride duration is lower between 4 PM and 7 PM. However, it peaks between 10 AM and 3 PM.
+- Hourly Trends: The average ride duration is lower between 4 AM and 7 AM. However, it peaks between 10 AM and 3 PM.
 
 
 
