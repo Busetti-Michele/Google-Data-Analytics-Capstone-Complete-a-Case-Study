@@ -135,6 +135,7 @@ ORDER BY total_trips DESC;
 
 
 -- Frequent stations for casual riders (departure + arrival)
+
 SELECT 
   station_name, 
   COUNT(ride_id) AS total_trips
