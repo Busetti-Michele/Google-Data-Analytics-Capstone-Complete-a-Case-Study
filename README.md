@@ -171,6 +171,7 @@ Analyses Conducted:
 
 ### <b> 1. Analyzing Bike Usage to Understand the Current Situation </b>
 First of all, I decided to analyze the usage of the bikes to assess the current situation of the company. 
+This represents the usage in hours by members and casual riders:
 
 ![image](https://github.com/user-attachments/assets/30741af9-5c1c-40d0-b30d-4430b162237a)
 From the data, we observe that the ride duration for both members and casual riders is quite similar, highlighting significant opportunities for improvement.
@@ -219,8 +220,15 @@ As observed, the most utilized vehicles were classic bikes and electric bikes, b
 
 
 
+### <b> 5. -- Frequent stations for members & casual riders (departure + arrival) </b>
+The query allowed me to identify the most frequently used stations by members and casual riders. 
+
+![image](https://github.com/user-attachments/assets/799b3838-61f4-4fb4-8223-13b0e8494cce).....
+![image](https://github.com/user-attachments/assets/d818812b-4f6d-4501-affe-eebcc80a5860)
 
 
+As shown in the two images provided, members (first one) tend to use bikes more often from stations located near residential areas and universities.
+On the other hand, casual riders (second one) frequently start their trips from stations near parks, acquariums, planetariums and theaters
 
 
 
