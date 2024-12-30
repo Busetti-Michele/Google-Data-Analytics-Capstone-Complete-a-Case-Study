@@ -9,7 +9,7 @@ My task is to answer key business questions by following the structured data ana
 - [Ask](#ask)
 - [Prepare](#prepare)
 - [Process](#process)
-- [Analyze & Share](#analyze-&-share)
+- [Analyze and Share](#analyze-and-share)
 - [Act](#Act)
 
 ## Introduction
@@ -164,7 +164,7 @@ Additionally, I decided to remove cases where the duration was less than one min
 
 After these cleaning steps, the number of rows reduced from 5,906,269 to 5,794,919, and the dataset is now ready for analysis.
 
-## Analyze & Share
+## Analyze and Share
 The analyses performed in BigQuery will be included in the file [Data Analysis.sql](https://github.com/Busetti-Michele/Google-Data-Analytics-Capstone-Complete-a-Case-Study/blob/main/Data%20Analysis.sql), while the visualizations were created using Tableau.
 
 
