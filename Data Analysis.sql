@@ -1,16 +1,13 @@
--- Total Trips by Bike Type and Rider Type 
+-- Usage in hours by members and casual riders
 
 SELECT 
-  rideable_type, 
-  member_casual, 
-  COUNT(*) AS total_trips
-FROM `GoogleDataAnalytics.Cyclistic_Dataset_cleaned`
+  member_casual,
+  SUM(ride_length) / 60 AS total_ride_duration_hours
+FROM 
+  `GoogleDataAnalytics.Cyclistic_Dataset_cleaned`
 GROUP BY 
-  member_casual, 
-  rideable_type
-ORDER BY 
-  member_casual, 
-  total_trips;
+  member_casual;
+
 
 
 -- Total Trips by Month and Rider Type
@@ -94,7 +91,24 @@ GROUP BY
 
 
 
+-- Total Trips by Bike Type and Rider Type 
+
+SELECT 
+  rideable_type, 
+  member_casual, 
+  COUNT(*) AS total_trips
+FROM `GoogleDataAnalytics.Cyclistic_Dataset_cleaned`
+GROUP BY 
+  member_casual, 
+  rideable_type
+ORDER BY 
+  member_casual, 
+  total_trips;
+
+
+
 -- Frequent stations for members (departure + arrival)
+
 SELECT 
   station_name, 
   COUNT(ride_id) AS total_trips
