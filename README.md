@@ -139,6 +139,7 @@ The fact that we always have starting latitude and longitude but not ending coor
 Finally, the last column, as we already know, indicates whether the rider was a subscribed member or a casual user.
 
 ![image](https://github.com/user-attachments/assets/d80b4119-4af4-420d-bec0-9315628a3723)
+
 Note that a total of 3.7 million trips were made by members, while 2.1 million trips were made by casual riders. The main objective is to convert casual riders into members, and while we are on the right track, there is still room for improvement in understanding the behaviors of both groups to effectively drive this conversion
 
 
@@ -162,15 +163,42 @@ Additionally, I decided to remove cases where the duration was less than one min
 
 After these cleaning steps, the number of rows reduced from 5,906,269 to 5,794,919, and the dataset is now ready for analysis.
 
-## Analyze
+## Analyze & Share
 
 
-Beginning the analysis with the first column, we examine the utilization of different vehicle types by members and casual riders.
 
-![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
-![image](https://github.com/user-attachments/assets/ddd688fe-b9b6-4c91-886d-4a8ef2d3a9cb)
+Analyses Conducted:
 
-As observed, the most utilized vehicles were classic bikes and electric bikes, both used in similar quantities by members and casual riders
+
+<b> 1. Number of Rides Analysis </b>
+
+Objective: To examine the total number of rides taken by members and casual riders across different timeframes (month, day, and hour).
+![image](https://github.com/user-attachments/assets/f8ebbf1c-8826-4b93-86a5-7442267a537e)
+![image](https://github.com/user-attachments/assets/df8d7625-b1d7-4350-97ff-9f81857a2b66)
+![image](https://github.com/user-attachments/assets/778e4f1d-9ae1-448f-a91c-f79818daeca2)
+
+We can see
+
+<b> 2. Average Ride Duration Analysis</b>
+
+Objective: To analyze the average ride duration across different timeframes, including by month, day of the week, and hour of the day.
+![image](https://github.com/user-attachments/assets/7dae028a-2790-4c6d-be89-cc767ad19570)
+![image](https://github.com/user-attachments/assets/abbff7dd-7b5e-4886-9101-eaba92bdfae1)
+![image](https://github.com/user-attachments/assets/01886769-d787-4ae0-b5ff-6b0913712f85)
+
+
+
+
+
+<b> 3. Analysis of Vehicle Usage by Rider Type </b>
+
+  - Objective: To determine the types of vehicles (classic bikes, electric bikes, etc.) preferred by members and casual riders.
+     ![image](https://github.com/user-attachments/assets/2552c853-88e3-42d2-811a-6a7ad9501ee0)
+    ![image](https://github.com/user-attachments/assets/ddd688fe-b9b6-4c91-886d-4a8ef2d3a9cb)
+  - As observed, the most utilized vehicles were classic bikes and electric bikes, both used in similar quantities by members and casual riders
+
+
+
 
 
 
