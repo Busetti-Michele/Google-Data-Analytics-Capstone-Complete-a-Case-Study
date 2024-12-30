@@ -230,6 +230,19 @@ The query allowed me to identify the most frequently used stations by members an
 As shown in the two images provided, members (first one) tend to use bikes more often from stations located near residential areas and universities.
 On the other hand, casual riders (second one) frequently start their trips from stations near parks, acquariums, planetariums and theaters
 
+### Summary
+| Member | Casual|
+|----------|----------|
+| They prefer biking on weekdays during commute hours (8 AM to 5 PM) in the summer and spring |They tend to use bikes throughout the day, with increased frequency on weekends during the summer and spring for leisure activities|
+| They ride more frequently but for shorter durations, approximately half the duration of casual riders' trips | They travel twice as long but less frequently than members |
+| Their trips are mostly concentrated in residential areas | They typically start and end their journeys near parks, acquariums and other leisure spots |
+
+## Act
+- Incentivize sign-ups during peak seasons: Use high-usage periods (summer and spring) to offer discounts or exclusive benefits to casual riders, encouraging them to become members for better rates and additional perks.
+
+- Enhance the casual rider experience: Create experiences more similar to those of members, such as the ability to reserve bikes in advance or ensuring availability in residential areas, to familiarize casual riders with the convenience and encourage them to switch to a membership.
+
+- Promote long-term convenience and benefits: Highlight how membership provides practical advantages, such as priority and discounted access in residential areas and during peak times, to appeal to casual riders who tend to use bikes on weekends or for recreational activities.
 
 
 
