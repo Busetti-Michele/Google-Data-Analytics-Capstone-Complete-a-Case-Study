@@ -221,7 +221,7 @@ As observed, the most utilized vehicles were classic bikes and electric bikes, b
 
 
 
-### <b> 5. -- Frequent stations for members & casual riders (departure + arrival) </b>
+### <b> 5. Frequent stations for members & casual riders (departure + arrival) </b>
 The query allowed me to identify the most frequently used stations by members and casual riders. 
 
 ![image](https://github.com/user-attachments/assets/799b3838-61f4-4fb4-8223-13b0e8494cce).....
